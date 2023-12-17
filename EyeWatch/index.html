@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/globals.css" />
+    <link rel="stylesheet" href="/static/css/styleguide.css" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="icon" href="/img/eye-1.svg" />
+    <title>EyeWatch</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <div class="nav-logo">
+          <div class="logo"></div>
+          <div class="text-wrapper">EyeWatch</div>
+        </div>
+        <div class="nav-nav-menu">
+          <div class="div"><button class="button">Перегляд</button></div>
+          <div class="div"><button class="button">Архів</button></div>
+          <div class="div"><button class="button">Сповіщення</button></div>
+          <div class="sign-up">
+            <img class="user" src="img/user-1.svg" />
+            <button
+              class="button"
+              onclick="loadPage('pages/registration.html')"
+            >
+              Зареєструватись
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content"></main>
+
+    <script>
+      // Завантаження сторінки логіну при вході на сайт
+      window.onload = function () {
+        loadPage("pages/login.html");
+      };
+
+      function loadPage(pageUrl) {
+        fetch(pageUrl)
+          .then((response) => response.text())
+          .then((html) => {
+            document.getElementById("main-content").innerHTML = html;
+          })
+          .catch((error) => console.error("Error loading page:", error));
+      }
+    </script>
+    <script src="/static/js/home.js"></script>
+  </body>
+</html>
