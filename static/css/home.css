@@ -449,7 +449,7 @@
     position: relative;
     width: 35px;
     height: 35px;
-    background-image: url(/img/warning-3.png);
+    background-image: url(img/warning-3.png);
     background-size: 100% 100%;
   }
   
@@ -508,7 +508,7 @@
   }
   
   .home .component-3 {
-    background-image: url(/img/high-priority-1.png);
+    background-image: url(img/high-priority-1.png);
     position: relative;
     width: 35px;
     height: 35px;
@@ -516,7 +516,7 @@
   }
   
   .home .component-4 {
-    background-image: url(/img/question-mark-1.png);
+    background-image: url(img/question-mark-1.png);
     position: relative;
     width: 35px;
     height: 35px;
@@ -541,7 +541,7 @@
   .home .component-5 {
     margin-top: -22031px;
     margin-left: -21153px;
-    background-image: url(./img/warning.png);
+    background-image: url(.img/warning.png);
     position: relative;
     width: 35px;
     height: 35px;
@@ -566,7 +566,7 @@
   .home .component-6 {
     margin-top: -22110px;
     margin-left: -21153px;
-    background-image: url(./img/warning.png);
+    background-image: url(img/warning.png);
     position: relative;
     width: 35px;
     height: 35px;
