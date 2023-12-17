@@ -449,8 +449,6 @@
     position: relative;
     width: 35px;
     height: 35px;
-    background-image: url(/img/warning-3.png);
-    background-size: 100% 100%;
   }
   
   .home .text-wrapper-6 {
@@ -500,27 +498,21 @@
   }
   
   .home .component-2 {
-    background-image: url(/img/info-1.png);
     position: relative;
     width: 35px;
     height: 35px;
-    background-size: 100% 100%;
   }
   
   .home .component-3 {
-    background-image: url(/img/high-priority-1.png);
     position: relative;
     width: 35px;
     height: 35px;
-    background-size: 100% 100%;
   }
   
   .home .component-4 {
-    background-image: url(/img/question-mark-1.png);
     position: relative;
     width: 35px;
     height: 35px;
-    background-size: 100% 100%;
   }
   
   .home .table-items-wrapper {

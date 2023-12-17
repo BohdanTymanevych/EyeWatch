@@ -22,7 +22,6 @@ header {
 .create-account {
   display: flex;
   flex-direction: column;
-  height: 100%;
   align-items: flex-start;
   position: relative;
   background-color: var(--background);
